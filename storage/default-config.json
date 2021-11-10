@@ -1,0 +1,30 @@
+{
+    "name": "LtRobot",
+    "version": "3.2.0",
+    "stage": "Dev",
+    "modules": [
+        {
+            "name": "chat",
+            "src": "./modules/chat/index.js",
+            "enabled": true,
+            "settings": {
+                "onlineMsg": false,
+                "chat_username": "YOUR_BOT_USERNAME",
+                "chat_token": "YOUR_CHAT_LOGIN_TOKEN",
+                "chat_channels": ["ARRAY","OF","CHANNEL","NAMES"]
+            }
+        },
+        {
+            "name": "discord",
+            "src": "./modules/discord/index.js",
+            "enabled": false,
+            "settings": {
+                "dev": {
+                    "deploy_commands": false
+                },
+                "client_id": "YOUR_CLIENT_ID",
+                "token": "YOUR_BOT_TOKEN"
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "ltrobot",
+  "version": "3.2.0",
+  "description": "A full README is in progress.",
+  "main": "main.js",
+  "dependencies": {
+    "@discordjs/builders": "^0.7.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "colors": "^1.4.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.2.0",
+    "moment-timezone": "^0.5.33",
+    "node-fetch": "^2.6.1",
+    "tmi.js": "^1.8.5"
+  },
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "rcwdev",
+  "license": "MIT",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcwdev/ltrobot.git"
+  },
+  "keywords": [
+    "twitch",
+    "chat",
+    "bot"
+  ],
+  "bugs": {
+    "url": "https://github.com/rcwdev/ltrobot/issues"
+  },
+  "homepage": "https://github.com/rcwdev/ltrobot#readme"
+}
